@@ -17,11 +17,21 @@ export const PADDING = {
   LARGE: "16px",
 };
 
+export const FONT_SIZES = {
+  DEFAULT: "1em",
+  SMALL: "2em",
+  LARGE: "4em",
+};
+
 export const STYLES = {
   CONTAINER: {
     padding: PADDING.MEDIUM,
     border: `1px solid ${COLORS.PRIMARY}`,
   },
+};
+
+const size = (screenWidth) => {
+  // do some logic on screenWidth
 };
 
 // if you want your app to look good
